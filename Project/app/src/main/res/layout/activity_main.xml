@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnlocation"
+
+        android:textColor="#ECE8E8"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn"
+        android:text="Get Location"
+        />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp">
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                tools:ignore="Suspicious0dp" />
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                tools:ignore="Suspicious0dp" />
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/text3"
+            tools:ignore="Suspicious0dp" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/text4"
+            tools:ignore="Suspicious0dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/text7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/number"
+        android:layout_width="136dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_btn"
+        android:text="Retrive Number" />
+
+
+<!--    <EditText-->
+<!--        android:id="@+id/text6"-->
+<!--        android:layout_width="263dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="30dp"-->
+<!--        android:layout_marginRight="0dp"-->
+<!--        android:gravity="center"-->
+<!--        android:hint="Number" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/add"-->
+<!--        android:background="@drawable/custom_btn"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="10dp"-->
+<!--        android:text="Add Contact"-->
+<!--        android:textColor="#ECE8E8"-->
+<!--        />-->
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="130dp"
+            android:text="Pannic Number"
+            android:id="@+id/data"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+    <Button
+        android:id="@+id/btnmsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn"
+        android:text="SEND "
+        android:textColor="#ECE8E8" />
+
+<!--    <RelativeLayout-->
+<!--        android:layout_width="329dp"-->
+<!--        android:layout_height="187dp">-->
+
+<!--        <Button-->
+<!--            android:textColor="#ECE8E8"-->
+<!--            android:background="@drawable/custom_btn"-->
+<!--            android:id="@+id/signout"-->
+<!--            android:layout_width="234dp"-->
+<!--            android:layout_height="69dp"-->
+<!--            android:layout_alignParentStart="true"-->
+<!--            android:layout_alignParentTop="true"-->
+<!--            android:layout_alignParentEnd="true"-->
+<!--            android:layout_marginStart="59dp"-->
+<!--            android:layout_marginTop="88dp"-->
+<!--            android:layout_marginEnd="55dp"-->
+<!--            android:onClick="logout"-->
+<!--            android:text="Signout"-->
+<!--            android:layout_alignParentLeft="true"-->
+<!--            android:layout_alignParentRight="true"-->
+<!--            android:layout_marginLeft="59dp"-->
+<!--            android:layout_marginRight="55dp" />-->
+<!--    </RelativeLayout>-->
+
+
+</LinearLayout>
